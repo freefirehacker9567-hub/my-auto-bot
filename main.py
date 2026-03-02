@@ -22,7 +22,7 @@ async def auto_approve(update: Update, context):
     try:
         await context.bot.approve_chat_join_request(chat_id=request.chat.id, user_id=request.from_user.id)
         # ইনবক্সে মেসেজ (ইউজার আগে বট স্টার্ট করলে পাবে)
-        await context.bot.send_message(chat_id=request.from_user.id, text="স্বাগতম! আপনাকে চ্যানেলে অ্যাড করা হয়েছে।")
+        await context.bot.send_message(chat_id=request.from_user.id, text="স্বাগতম! আপনাকে চ্যানেলে অ্যাড করা হয়েছে ❤For Buy Premium Knock @lifemeanssex")
     except:
         pass
 
