@@ -15,7 +15,7 @@ def run_flask():
     app.run(host='0.0.0.0', port=port)
 
 # আপনার বটের আসল কাজ
-TOKEN = '8722696203:AAE4oWJy9zZJs-5dmORunDiZP6aS0QHTBkw'
+TOKEN = '8722696203:AAHeZZJ9kJjzBBDQSCLepNIHKbb8GtHR9DM'
 
 async def auto_approve(update: Update, context):
     request = update.chat_join_request
